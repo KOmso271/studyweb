@@ -22,4 +22,4 @@ Backend:
 	•	Express.js
 
 Cơ sở dữ liệu:
-	•	MongoDB
+	•	MySQL
