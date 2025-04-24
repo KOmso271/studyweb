@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/c991f90e06.js" crossorigin="anonymous"></script>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="bgr">
+        <div class="div-1">
+            <ul class="menu">
+                <li><img src="../img/logo.png" alt="logo" id="logo"></li>
+                <li>
+                    <form class="search-form">
+                        <input type="text" class="search-input" placeholder="search...">
+                        <button id="nut-tk">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </button>
+                    </form>
+                </li>
+                <li><a href="../index.html">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        Home</a></li>
+                <li>
+                    <div class="menu-creat">
+                        <span><i class="fa-solid fa-puzzle-piece"></i></span>
+                        <button onclick="myFunction()">Creat Quizz</button>
+                        <div class="dropdown-creat" id ="mycreat">
+                            <a href="../html/creat.html">Normal Quizz</a>
+                            <a href="../html/flashcard.html">Flashcard</a>
+                        </div>
+                    </div>
+
+                </li>
+                <li><a href="#">
+                        <span><i class="fa-solid fa-book-open-reader"></i></span>
+                        Libary</a></li>
+                <li><a href="#infor">
+                        <span><i class="fa-solid fa-bookmark"></i></span>
+                        Information</a></li>
+                <li>
+                    <div class="menu-setting">
+                        <span><i class="fa-solid fa-gears"></i></span>
+                        <button onclick="setFunction()">Setting</button>
+                        <div class="dropdown-setting" id ="myset">
+                            <div class="audio">
+                                <div class="music">Music</div>
+                                <div class="toggle-switch">
+                                    <label class="switch">
+                                        <input id="play-pause" type="checkbox" >
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                                <audio id="track">
+                                    <source src="../music/funny-kids_59sec-190857.mp3" type="audio/mpeg" />
+                                  </audio>
+                            </div>
+                            <a href="#">Sound effect </a>
+                            <a href="#">Memes</a>
+                            
+                        </div>
+                </li>
+                <li>
+                    <a href="../login/login.html"><span>
+                            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        </span>Log in/Sign up</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ds">
+            <div class="sidebar">
+                <ul>
+                    <li class="c3"><button data-content="#lop12">Class 12</button></li>
+                    <li class="c3"><button data-content="#lop11">Class 11</button></li>
+                    <li class="c3"><button data-content="#lop10">Class 10</button></li>
+                    <br>
+                    <li class="c2"><button data-content="#lop9">Class 9</button></li>
+                    <li class="c2"><button data-content="#lop8">Class 8</button></li>
+                    <li class="c2"><button data-content="#lop7">Class 7</button></li>
+                    <li class="c2"><button data-content="#lop6">Class 6</button></li>
+                    <br>
+                    <li class="c1"><button data-content="#lop5">CLass 5</button></li>
+                    <li class="c1"><button data-content="#lop4">Class 4</button></li>
+                    <li class="c1"><button data-content="#lop3">Class 3</button></li>
+                    <li class="c1"><button data-content="#lop2">Class 2</button></li>
+                    <li class="c1"><button data-content="#lop1">Class 1</button></li>
+                </ul>
+            </div>
+            <div class="content">
+
+                <div id="lop12" class="class-content">
+                    <h1>Topic class 12</h1>
+                    <br>
+                    <!-- Add content for Lớp 12 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop11" class="class-content">
+                    <h1>Topic class 11</h1>
+                    <br>
+                    <!-- Add content for Lớp 11 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop10" class="class-content">
+                    <h1>Topic class 12</h1>
+                    <br>
+                    <!-- Add content for Lớp 10 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop9" class="class-content">
+                    <h1>Topic class 9</h1>
+                    <br>
+                    <!-- Add content for Lớp 9 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop8" class="class-content">
+                    <h1>Topic class 8</h1>
+                    <br>
+                    <!-- Add content for Lớp 8 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop7" class="class-content">
+                    <h1>Topic class 7</h1>
+                    <br>
+                    <!-- Add content for Lớp 7 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+@@ -269,172 +269,173 @@
+                    <h1>Nội dung Lớp 6</h1>
+                    <br>
+                    <!-- Add content for Lớp 6 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                  
+                </div>
+                <div id="lop5" class="class-content">
+                    <h1>Topic class 5</h1>
+                    <br>
+                    <!-- Add content for Lớp 5 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop4" class="class-content">
+                    <h1>Topic class 4</h1>
+                    <br>
+                    <!-- Add content for Lớp 4 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop3" class="class-content">
+                    <h1>Topic class 3</h1>
+                    <br>
+                    <!-- Add content for Lớp 3 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>FInal-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop2" class="class-content">
+                    <h1>Topic class 2</h1>
+                    <br>
+                    <!-- Add content for Lớp 2 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                </div>
+                <div id="lop1" class="class-content">
+                    <h1>Topic class 1</h1>
+                    <br>
+                    <!-- Add content for Lớp 1 here -->
+                    <h2>Full course</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 2</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Final-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+                    <br>
+                    <h2>Mid-term 1</h2>
+                    <p>Quiz 1</p>
+                    <p>Quiz 2</p>
+                    <p>Quiz 3</p>
+
+                </div>
+                <div id="lop0" class="class-content">
+                    <h2><i class="fa-solid fa-building-columns"></i> Upgrade</h2>
+                    <div class="vip">
+                        <div class="vip1">
+                            <div class="vip3">
+                                <ol>
+                                    <li>Questionnaire expiry date</li>
+                                    <li>Limit the use of AI chat bots</li>
+                                    <li>Failed to download document</li>
+                                </ol>
+                            </div>
+                            <div class="vip4">
+                                <a href="thanhtoan.html"><p>Free</p></a>
+                            </div>
+                        </div>
+                        <div class="vip2">
+                            <div class="vip3">
+                                <ol>
+                                    <li>The expiry date for questionnaires is 90 days.</li>
+                                    <li>AI chatbot usage is limited to 20 queries per day.</li>
+                                    <li>Unlimited document downloads for files up to 50MB.</li>
+                                </ol>
+                            </div>
+                            <div class="vip4">
+                                <a href="thanhtoan.html"><p>Buy : 1$/week</p></a>
+                            </div>
+                        </div>
+                        <div class="vip1">
+                            <div class="vip3">
+                                <ol>
+                                    <li>The expiry date for questionnaires is 180 days.</li>
+                                    <li>AI chatbot usage is limited to 100 queries per day.</li>
+                                    <li>Unlimited document downloads for files up to 100MB.</li>
+                                </ol>
+                            </div>
+                            <div class="vip4">
+                                <a href="thanhtoan.html"><p>Buy : 4$/month</p></a>
+                            </div>
+                        </div>
+                        <div class="vip2">
+                            <div class="vip3">
+                                <ol>
+                                    <li>The expiry date for questionnaires is 365 days.</li>
+                                    <li>Unlimited AI chatbot usage</li>
+                                    <li>Unlimited document downloads with no file size limit.</li>
+                                </ol>
+                            </div>
+                            <div class="vip4">
+                                <a href="thanhtoan.html"><p>Buy : 40$/year</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h2><i class="fa-regular fa-handshake"></i> Trusted Partners</h2>
+                    <div class="doitac">
+                        <a href="https://phenikaa-uni.edu.vn/vi">
+                            <img src="../img/doitac1.png" alt=""></a>
+                        <a href="https://vudangkhoa0910.github.io/Big-Project-Website/index.html">
+                            <img src="../img/doitac2.png" alt=""></a>
+                        <a href="https://vinschool.edu.vn/">
+                            <img src="../img/doitac3.png" alt=""></a>
+                        <a href="https://cs.phenikaa-uni.edu.vn/vi">
+                            <img src="../img/doitac4.png" alt=""></a>
+                        <a href="https://vnu.edu.vn/home/">
+                            <img src="../img/doitac5.png" alt=""></a>
+                        <a href="https://www.manutd.com/">
+                            <img src="../img/doitac6.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="div-5" id="infor">
+                <div class="div-5-1">
+                    <div class="div511">
+                        <h2>Natural Sience</h2>
+                        <a href="ds_quiz.html">Math</a>
+                        <a href="ds_quiz.html">Sciene</a>
+                        <a href="ds_quiz.html">Chemical</a>
+                        <a href="ds_quiz.html">Geometry</a>
+                        <a href="ds_quiz.html">Analysis</a>
+                    </div>
+                    <div class="div512">
+                        <h2>Social Science</h2>
+                        <a href=".ds_quiz.html">History</a>
+                        <a href=".ds_quiz.html">Geography</a>
+                        <a href=".ds_quiz.html">Literature</a>
+                        <a href=".ds_quiz.html">Morality</a>
+                    </div>
+                    <div class="div513">
+                        <h2>Physical</h2>
+                        <a href=".ds_quiz.html">Soccer</a>
+                        <a href=".ds_quiz.html">Basket Ball</a>
+                        <a href=".ds_quiz.html">Badminton</a>
+                        <a href=".ds_quiz.html">Swim</a>
+                        <a href=".ds_quiz.html">Racing</a>
+                    </div>
+                    <div class="div514">
+                        <h2>Highlight</h2>
+                        <a href=".ds_quiz.html">Q-Chat AI</a>
+                        <a href=".ds_quiz.html">Virtual Room</a>
+                        <a href=".ds_quiz.html">Flashcards</a>
+                        <a href=".ds_quiz.html">Tests</a>
+                        <a href=".ds_quiz.html">Quick Quizz</a>
+                    </div>
+                    <div class="div515">
+                        <h2>Support</h2>
+                        <a href="#"></a>
+                        <a href="#">Searching</a>
+                        <a href="./login/login.html">Sign up/ Log in</a>
+                        <a href="#">Liên Hệ:</a>
+                        <a href="https://mail.google.com/mail/u/0/">Email: Quiz.app@gmail.com</a>
+                        <a href="#">Call: 0123456789</a>
+                    </div>
+                </div>
+                <div class="div-5-2">
+                    <div class="div521">
+                        <p>
+                            <a class="info" href="index.html">© 2024 QuizzApp</a>
+                            <a class="info" href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="info" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="info" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../JavaScript/ds_quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    padding: 20px;
+    color: #333;
+}
+
+.back {
+    margin-bottom: 20px;
+}
+
+.back button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back button:hover {
+    background-color: #218838;
+}
+
+.thanhtoan {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+}
+.ngMua, .ngBan{
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.qr {
+    flex: 1 1 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid #eef2f3;
+}
+
+.qr img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+.qr h2 {
+    font-size: 1.8em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.qr p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.qr p i {
+    font-size: 1.5em;
+    color: #28a745;
+}
+
+.thongtin {
+    flex: 1 1 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.thongtin h2 {
+    font-size: 1.8em;
+    color: #000000;
+    margin-bottom: 15px;
+    padding: 0px 10px 0px 10px;
+}
+
+.thongtin p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+    padding: 0px 10px 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .thanhtoan {
+        flex-direction: column;
+    }
+
+    .qr, .thongtin {
+        flex: 1 1 100%;
+        padding: 10px;
+        border-right: none;
+    }
+}

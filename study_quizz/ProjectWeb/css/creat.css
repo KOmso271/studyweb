@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color:rgb(210, 213, 217);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.question-box {
+    margin-bottom: 20px;
+}
+
+.question-box textarea {
+    width: 100%;
+    height: 120px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.option input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.option input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px; /* Thêm margin-top */
+}
+
+.buttons button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 7px 21px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.deleteQuestionBtn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#addQuestionBtn {
+    background-color: #28a745; /* Thay đổi màu nút thêm */
+    color: #fff;
+    padding: 7px 21px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#addQuestionBtn:hover {
+    background-color: #218838; /* Thay đổi màu hover của nút thêm */
+}
+
+.option.blue{
+    background-color: #0c4f96;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.option.orange{
+    background-color: rgb(227, 118, 9);
+    padding:10px;
+    border-radius: 12px;
+}
