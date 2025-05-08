@@ -1,20 +1,16 @@
-Quiz App
-Quiz App là một ứng dụng web cho phép người dùng làm bài trắc nghiệm theo chủ đề, kiểm tra kiến thức và xem kết quả ngay lập tức. Ứng dụng có thể được sử dụng cho học tập, luyện thi hoặc giải trí.
-Tính năng
-•	Hiển thị câu hỏi trắc nghiệm với nhiều đáp án chọn một.
-•	Chấm điểm tự động và hiển thị kết quả sau khi nộp bài.
-•	Hỗ trợ giới hạn thời gian cho từng bài quiz.
-•	Người dùng có thể làm lại quiz nhiều lần.
-•	Giao diện dễ sử dụng, hiển thị tốt trên cả máy tính và thiết bị di động.
-•	Lưu trữ và truy xuất câu hỏi từ cơ sở dữ liệu MongoDB.
-Công nghệ sử dụng
-Frontend:
-•	HTML5
-•	CSS3
-•	JavaScript (thuần)
-Backend:
-•	Node.js
-•	Express.js
+Quiz App - Làm Quiz trực tuyến
+Cho phép người dùng sử dụng web để học tập, làm bài trắc nghiệm để ôn tập kiến thức.
 
-Cơ sở dữ liệu:
-•	MySQL
+1) Tính năng
+- Login/Sign up
+- Làm quiz theo yêu câù
+- Chia kiến thức theo cấp học
+- Nhân vật tuỳ chỉnh
+- Xếp hạng kết quả
+
+2) Công nghệ sử dụng
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python, Node.js
+- CSDL: MySQL
+
+
