@@ -1,5 +1,4 @@
 Quiz App
-
 Quiz App là một ứng dụng web cho phép người dùng làm bài trắc nghiệm theo chủ đề, kiểm tra kiến thức và xem kết quả ngay lập tức. Ứng dụng có thể được sử dụng cho học tập, luyện thi hoặc giải trí.
 Tính năng
 •	Hiển thị câu hỏi trắc nghiệm với nhiều đáp án chọn một.
